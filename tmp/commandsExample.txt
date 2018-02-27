@@ -1,0 +1,14 @@
+define command {
+  command_name          check_okCountExample
+  command_line          $USER1$/check_okCountExample.sh
+}
+
+define command {
+  command_name            check_warningCountExample
+  command_line            $USER1$/check_warningCountExample.sh
+}
+
+define command {
+  command_name          check_errorCountExample
+  command_line          $USER1$/check_errorCountExample.sh
+}
