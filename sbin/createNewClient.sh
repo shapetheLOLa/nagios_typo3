@@ -44,13 +44,7 @@ do
 	$SED -i 's/Example/'${NAME^}'/g' /usr/local/nagios/etc/servers/$NAME.cfg
 	$SED -i 's/2example/'${NAME}'/g' /usr/local/nagios/etc/servers/$NAME.cfg
 	
-	### Backup localhost.cfg to /backup/ and add clients to typo3 host group
-	echo 'Adding client to typo3 host group...'
-
-	$CP /usr/local/nagios/etc/objects/localhost.cfg "/backup/localhost.cfg-Bak-$(date +"%m-%d-%y-%r")"
-	$SED -i '/zanzu/s/$/',${NAME}'/' /usr/local/nagios/etc/objects/localhost.cfg
-
-        echo 'Please add the typo3 URL to the CLIENTS row in /usr/local/sbin/getTypo3.sh and restart nagios'
+        echo 'Please add the typo3 URL to the CLIENTS row in /usr/local/sbin/getTypo3.sh if you haven't already and restart nagios'
 done
 
 
