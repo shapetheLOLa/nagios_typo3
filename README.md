@@ -27,3 +27,7 @@ Im running the getTypo3.sh via a cronjob.
 
 If you have questions, feel free to ask.
 
+
+
+Todo: add clientURL to getTypo3.sh script
+
