@@ -19,7 +19,3 @@ I've used "|" as separator in the typo3 file, which sed will use to create newli
 
 Add your client urls to the CLIENTS list in getTypo3.sh and run it once manually to create the txt file. After the getTypo3.sh script ran there should be a new .txt file in /tmp/ which should look like this : 
 
-[url=https://imgbb.com/][img]https://image.ibb.co/dJCS0x/Bildschirmfoto_2018_02_27_um_12_58_04.png[/img][/url]
-
-
-
