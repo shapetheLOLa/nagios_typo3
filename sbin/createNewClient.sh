@@ -44,7 +44,7 @@ do
 	$SED -i 's/Example/'${NAME^}'/g' /usr/local/nagios/etc/servers/$NAME.cfg
 	$SED -i 's/2example/'${NAME}'/g' /usr/local/nagios/etc/servers/$NAME.cfg
 	
-        echo 'Please add the typo3 URL to the CLIENTS row in /usr/local/sbin/getTypo3.sh if you haven't already and restart nagios'
+        echo 'Please add the typo3 URL to the CLIENTS row in /usr/local/sbin/getTypo3.sh if you haven't already, and restart nagios'
 done
 
 
