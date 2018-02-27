@@ -11,9 +11,9 @@ This script uses the directorys used when nagios core is built from **source**.
 
 
 
-Copy getTypo3.sh and createNewClient.sh to /usr/local/sbin/ and the other files to /tmp/
+Copy getTypo3.sh and createNewClient.sh to /usr/local/sbin/, the other files to /tmp/ and create the folder /backup.
 
-I've used "|" as separator in the typo3 file, which sed will use to create newlines. 
+I've used the pipe "|" as separator in the typo3 file, which sed will then use to create newlines. 
 
 Add your client urls to the CLIENTS list in getTypo3.sh and run it once manually to create the txt file. After the getTypo3.sh script ran there should be a new .txt file in /tmp/ which should look like this : 
 
